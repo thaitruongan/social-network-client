@@ -1,0 +1,52 @@
+html,body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(245,245,245);
+}
+
+.container{
+  margin: 6% auto 0 auto;
+  max-width: 1200px;  
+}
+
+a{
+  text-decoration: none;
+}
+
+.card{
+  text-align: center;
+  margin-right: 20%;
+  margin-top: 30%;
+}
+.card-signup{
+  text-align: center;
+  margin-right: 20%;
+  margin-top: 15%;
+}
+
+@media screen and (max-width: 400px)
+{
+  .container{
+    margin: 17% auto 0 auto;
+  }
+  .card{
+    text-align: center;
+    margin: 5% 5% 5% 5%;
+    
+  }
+  .card-signup{
+    text-align: center;
+    margin: 5% 5% 5% 5%;
+  }
+}
+
+@media screen and (max-width: 650px)
+{
+  .card{
+    text-align: center;
+    margin: 5% 5% 5% 5%;    
+  }
+  .card-signup{
+    text-align: center;
+    margin: 5% 5% 5% 5%;
+  }
+}
